@@ -1,7 +1,7 @@
 {
   "name": "powcha",
   "description": "Privacy-first CAPTCHA widget, compliant with global regulations (GDPR/HIPAA/CCPA/LGDP/DPDPA/PIPL) and WCAG accessible. No tracking, self-verifying.",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "license": "MIT",
   "author": {
     "name": "Mahdi Jalili",

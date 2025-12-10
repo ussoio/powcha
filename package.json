@@ -31,12 +31,12 @@
   "types": "./dist/altcha.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/altcha.js",
-      "require": "./dist/altcha.umd.cjs"
+      "import": "./dist/powcha.js",
+      "require": "./dist/powcha.umd.cjs"
     },
-    "./altcha.css": {
-      "import": "./dist_external/altcha.css",
-      "require": "./dist_external/altcha.css"
+    "./powcha.css": {
+      "import": "./dist_external/powcha.css",
+      "require": "./dist_external/powcha.css"
     },
     "./analytics": {
       "import": "./dist_plugins/analytics.js",

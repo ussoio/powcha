@@ -2350,6 +2350,7 @@ function kl(e, t) {
     }
     const h = await Er()(te(), {
       body: JSON.stringify(u),
+      credentials: typeof d() == "boolean" ? "include" : d(),
       headers: { "content-type": "application/json" },
       method: "POST"
     });
@@ -2369,6 +2370,7 @@ function kl(e, t) {
     Ye() && (h.fields = Ye().fields ? en() : void 0, h.timeZone = Ye().timeZone ? Wn() : void 0);
     const p = await Er()(te(), {
       body: JSON.stringify(h),
+      credentials: typeof d() == "boolean" ? "include" : d(),
       headers: { "content-type": "application/json" },
       method: "POST"
     });

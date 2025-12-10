@@ -3428,6 +3428,7 @@ function Es(e, t) {
     }
     const h = await _r()(te(), {
       body: JSON.stringify(c),
+      credentials: typeof d() == "boolean" ? "include" : d(),
       headers: { "content-type": "application/json" },
       method: "POST"
     });
@@ -3447,6 +3448,7 @@ function Es(e, t) {
     We() && (h.fields = We().fields ? ea() : void 0, h.timeZone = We().timeZone ? Ba() : void 0);
     const b = await _r()(te(), {
       body: JSON.stringify(h),
+      credentials: typeof d() == "boolean" ? "include" : d(),
       headers: { "content-type": "application/json" },
       method: "POST"
     });

@@ -2329,6 +2329,7 @@ function ya(e, t) {
     }
     const v = await Cn()(te(), {
       body: JSON.stringify(u),
+      credentials: typeof d() == "boolean" ? "include" : d(),
       headers: { "content-type": "application/json" },
       method: "POST"
     });
@@ -2348,6 +2349,7 @@ function ya(e, t) {
     Ze() && (v.fields = Ze().fields ? tr() : void 0, v.timeZone = Ze().timeZone ? Yr() : void 0);
     const _ = await Cn()(te(), {
       body: JSON.stringify(v),
+      credentials: typeof d() == "boolean" ? "include" : d(),
       headers: { "content-type": "application/json" },
       method: "POST"
     });
